@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>for 문 배열 2</title>
+  </head>
+  <body>
+
+  </body>
+
+  <script>
+
+  var arr1=[];
+  for(var i=0; i<10; i++){
+    arr1[i]=i+1;
+  }
+  console.log(arr1);
+
+  var arr2=[];
+  for(var i=0; i<11; i++){
+    arr2[i]=i*2;
+
+  }
+  console.log(arr2);
+
+  var arr3=[];
+  var arr3=[];
+  for(var i=0; i<7; i++){
+    arr3[i]="abc"+(i+1);
+
+  }
+  console.log(arr3);
+
+  var arr4=[];
+  for(var i=0; i<9; i++){
+
+    arr4[i]=(i*3)+1;
+
+  }
+  console.log(arr4);
+
+  var arr5=[];
+  for(var i=0; i<12; i++){
+    arr5[i]=i%2;
+  }
+  console.log(arr5);
+
+  var arr6=[];
+  for(var i=0; i<12; i++){
+    arr6[i]=i%4;
+  }
+  console.log(arr6);
+
+  var arr7=[];
+  var t="";
+  for(var i=0; i<6; i++){
+    t=t+"text";
+    arr7[i]=t;
+
+  }
+  console.log(arr7);
+
+  var arr8=[];
+  for(var i=0; i<7; i++){
+    arr8[i]=10**i;
+  }
+  console.log(arr8);
+
+  var arr9=[];
+  arr9[0]=0;
+  for(var i=2; i<10; i+=2){
+    arr9[i/2]=arr9[i/2-1]+10;
+  }
+  console.log(arr9);
+
+  var arr10=[];
+  for(var i=4; i<16; i=i+4){
+    for(var j=0; j<4; j++){
+      arr10[i-4+j]=i-j;
+    }
+  }
+  console.log(arr10);
+
+  var arr11=[1,2,3,4,5,6,"aa"];
+  for(var i=0; i<arr11.length; i++){
+    console.log(arr11[i]);
+  }
+
+  for(var i=0; i<9; i++){
+    arr2[i]=(i*3)+3;
+  }
+  console.log(arr2);
+
+  </script>
+</html>
